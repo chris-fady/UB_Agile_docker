@@ -14,8 +14,6 @@ from models import User
 
 app = Flask(__name__)
 
-#app.config['MONGO_DBNAME'] = 'agile_ds1'
-#app.config['MONGO_URI'] = 'mongodb://christopher.fady:King6433!@ds215633.mlab.com:15633/agile_ds1'
 app.config['MONGO_DBNAME'] = 'foodb'
 app.config['MONGO_URI'] = 'mongodb://db:27017/foodb'
 
